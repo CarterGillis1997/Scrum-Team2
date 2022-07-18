@@ -18,29 +18,10 @@ This will make merging your code easier
     padding: 10px;
     color: black;
 }
-/* End */
 
-/* This Deng's code start*/
-        .div1 {
-        background-color: lightblue;
-      }
-      .div2 {
-        background-color: lightgoldenrodyellow;
-      }
-      .div3 {
-        background-color: lightgreen;
-      }
-      
-      h1 {
-        color: white;
-        text-align: left;
-      }
-      
-      p {
-        font-family: verdana;
-        font-size: 20px;
-      }
+.over {
+    margin-left: 1400px;
+}
 
-    /* This is where Deng's code ends. */
    
 
