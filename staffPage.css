@@ -9,6 +9,7 @@ This will make merging your code easier
 
 /*End of Carters Section*/
 
+
 /* Steven's CSS*/
 .clss {
     background-color: rgb(204, 96, 96);
@@ -17,3 +18,28 @@ This will make merging your code easier
     padding: 10px;
 }
 /* End */
+
+/* This Deng's code start*/
+        .div1 {
+        background-color: lightblue;
+      }
+      .div2 {
+        background-color: lightgoldenrodyellow;
+      }
+      .div3 {
+        background-color: lightgreen;
+      }
+      
+      h1 {
+        color: white;
+        text-align: left;
+      }
+      
+      p {
+        font-family: verdana;
+        font-size: 20px;
+      }
+
+    /* This is where Deng's code ends. */
+   
+
