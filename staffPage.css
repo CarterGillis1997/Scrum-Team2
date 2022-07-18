@@ -8,6 +8,17 @@ This will make merging your code easier
 /*Carters CSS Here*/
 
 /*End of Carters Section*/
+
+
+/* Steven's CSS*/
+.clss {
+    background-color: rgb(204, 96, 96);
+    border: rgb(177, 0, 0) solid;
+    margin: 100px;
+    padding: 10px;
+}
+/* End */
+
 /* This Deng's code start*/
         .div1 {
         background-color: lightblue;
@@ -31,3 +42,4 @@ This will make merging your code easier
 
     /* This is where Deng's code ends. */
    
+
