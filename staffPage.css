@@ -13,9 +13,10 @@ This will make merging your code easier
 /* Steven's CSS*/
 .clss {
     background-color: rgb(204, 96, 96);
-    border: rgb(177, 0, 0) solid;
+    border: rgb(177, 0, 0) solid 10px;
     margin: 100px;
     padding: 10px;
+    color: black;
 }
 /* End */
 
