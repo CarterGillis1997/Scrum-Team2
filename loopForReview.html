@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // For Loop Review
+
+
+        // Beginner questions
+
+        // Question 1: Create a for loop that counts up to 10 and log each number
+        console.log("Count up to 10 begins here")
+        for(let i = 1; i <= 10; i++) {
+            console.log(i);
+        }
+
+        // Questions 2: Create a for loop that counts down from 10 and log each number
+        console.log("count down from 10 begins from here");
+        for(let i = 10; i >= 1; i--) {
+            console.log(i);
+        }
+
+        // Question 3: Create a for loop that logs "For loops are easy" 5 times
+        console.log("printing statements in for loops 5 times")
+        for(let i = 5; i >= 1; i--) {
+            console.log("For loops are easy");
+        }
+
+        // Intermediate Questions
+        // Question 4: Create an array than in for loop, log out each item in it
+        const arraylist = [40,20,23,30,70,21,43];
+        console.log("logging out each item in arraylist")
+        for(let i = 0; i < arraylist.length; i++){
+            console.log(arraylist[i]);
+        }
+
+        // Question 5: Create a string than in a for loop, log out each character in it
+        let str = "Review class";
+        console.log("logging each character in the string")
+        for (let i = 0; i < str.length; i++) {
+            console.log(str[i]);
+        }
+
+        // Question 6: Create an empty array, than fill it up with 5 items using a for loop
+        let emptyArray = [];
+        let animals = ["dog", "cat", "goat", "sheep", "cow"];
+        for (let i = 0; i < animals. length; i++) {
+            emptyArray += animals[i] + " ";
+        }
+        console.log(emptyArray);
+
+
+
+
+        // If statement review
+
+        // Beginner Questions
+        // Question 1: Create an if statement that checks if a number is greater than another and log that it is or isn't
+        let x = 10, y = 20;
+        if (x > y) {
+            console.log("it is");
+        }else{
+            console.log("isn't");
+        }
+
+        // Question 2: Create an if statement that checks if a number is smaller than another and log that it is or isn't
+        if(x < y) {
+            console.log("it is");
+        }else{
+            console.log("isn't");
+        }
+
+        // Question 3: Create an if statement that checks if a number is equal to another than log that it is or isn't
+        if(x == y) {
+            console.log("it is");
+        }else{
+            console.log("isn't");
+        }
+
+
+        // Intermediate Questions
+
+        // Question 4: Create an if statement that checks if a password is longer than 7 characters (log either password accepted or password too short)
+        let password = "university";
+        if(password.length > 7){
+            console.log("password accepted");
+        }else{
+            console.log("password too short");
+        }
+
+        // Question 5: Create an if statement that checks if an array named cart has less than 5 items (log please pay full amount or please remove items)
+        const cart = ["shirt", "T-shirt", "jeans", "shorts", "cap", "textbook"];
+        if(cart.length<5){
+            console.log("please pay full amount");
+        }else{
+            console.log("please remove items");
+        }
+
+        // Question 6: Create an if statement that checks a series of grades and logs A+ for 90-100, A for 80-90, B for 70-80, C for 60-70, and D for 50-60
+        let grades = [20,80,72,67,91,56,49,89,94,50];
+        for (let i = 0; i < grades.length; i++) {
+            if(grades[i]>=90){
+                console.log("A+");
+            }else if(grades[i]<90 && grades[i]>=80){
+                console.log("A");
+            }else if(grades[i]<80 && grades[i]>=70){
+                console.log("B");
+            }else if(grades[i]<70 && grades[i]>=60){
+                console.log("C");
+            }else if(grades[i]<60 && grades[i]>=50){
+                console.log("D");
+            }else{
+                console.log("F")
+            }
+        }
+    </script>
+    
+</body>
+</html>
